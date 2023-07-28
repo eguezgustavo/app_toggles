@@ -1,6 +1,6 @@
 # App toggles library
 
-![CI](https://github.com/eguezgustavo/app_toggles/actions/workflows/ci.yaml/badge.svg?branch=main)
+![CI](https://github.com/eguezgustavo/app_toggles/actions/workflows/cicd.yaml/badge.svg?branch=main)
 
 This library has been created taking into account the work done by [Pete Hodgson](https://thepete.net/) published in [https://martinfowler.com/](https://martinfowler.com/articles/feature-toggles.html).
 
