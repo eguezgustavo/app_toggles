@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "app-toggles"
-version = "0.1.0"
+version = "0.1.1"
 description = "A library to manage app toggles"
 authors = ["Gustavo Eguez <eguezgustavo@gmail.com>"]
 readme = "README.md"
