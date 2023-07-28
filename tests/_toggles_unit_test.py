@@ -13,7 +13,7 @@ class TestTogglesDecisionMethod:
 
         decided_value = toggles.toggle_decision(decision_function)(when_on=when_on, when_off=when_off)
 
-        decision_function.assert_called_with(provider.get_toggles, when_on=when_on, when_off=when_off)
+        decision_function.assert_called_with(provider.get_toggles, when_on, when_off)
         assert decided_value == when_on
     
     def test__raises_an_error_when_toggle_values_are_from_different_types(self, mocker):

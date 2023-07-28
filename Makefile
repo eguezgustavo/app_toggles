@@ -12,3 +12,6 @@ format:
 	poetry run black app_toggles
 	poetry run isort app_toggles
 	poetry run mypy app_toggles
+
+test:
+	poetry run pytest tests
