@@ -1,0 +1,9 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: format
+        name: Format code
+        entry: make format
+        language: system
+        types: [python]
+        stages: [commit]
